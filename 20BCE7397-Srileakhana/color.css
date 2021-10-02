@@ -1,0 +1,45 @@
+:root{
+    --skin-color:#c21c0d;
+}
+
+.footer{
+    padding-top: 4px;
+    padding-bottom: 16px;
+    
+    background-color: #ffffff;
+}
+
+.icons{
+    text-align: center;
+    margin-top: 16px;
+
+}
+.icons a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    
+    color: var(--text-black-600);
+    margin: 0 4px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    
+}
+.icons a i{
+    line-height: 40px;
+}
+.icons a:after{
+    border-radius: 50%;
+}
+.icons a:hover{
+    color: var(--skin-color);
+}
+.last-line{
+    text-align: center;
+    color: var(--text-black-600);
+    font-size: small;
+    margin-top: 16px;
+}
+.last-line span{
+    color: var(--text-black-900);
+}
