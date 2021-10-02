@@ -1,0 +1,322 @@
+*{
+    margin:0;
+}
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+
+@font-face {
+    font-family: 'punchlime';
+    src: url(/fonts/punchline_galimatias/Punchline&Galimatias\ 1_PersonalUseOnly.ttf);
+}
+@font-face {
+    font-family: 'cavernous';
+    src: url(/fonts/cavernous_shadows/CavernousShadows.ttf);
+}
+@font-face {
+    font-family: 'power_breakfast';
+    src: url(/fonts/power_breakfast/Power\ Breakfast\ DEMO.otf);
+}
+@font-face {
+    font-family: 'slouchy_brush';
+    src: url(/fonts/slouchy_brush/Slouchy\ Brush.ttf);
+}
+@font-face {
+    font-family: 'golden_hopes';
+    src: url(/fonts/golden_hopes/GoldenHopes_PERSONAL_USE_ONLY.otf);
+}
+@font-face {
+    font-family: 'chibiux';
+    src: url(/fonts/chibiux/Chibiux.otf);
+}
+@font-face {
+    font-family: 'utroligt';
+    src: url(/fonts/utroligt/Utroligt\ DEMO.otf);
+}
+@font-face {
+    font-family: 'bentang';
+    src: url(/fonts/bentang/Bentang.ttf);
+}
+@font-face {
+    font-family: 'cooling_down_script';
+    src: url(/fonts/cooling_down_script/CoolingDownDemoScript.ttf);
+}
+@font-face {
+    font-family:'mykilove' ;
+    src: url(/fonts/mykilove/Mykilove\ Demo\ Version.otf);
+}
+@font-face {
+    font-family:'rambler' ;
+    src: url(/fonts/the_rambler/The\ Rambler.ttf);
+}
+@font-face {
+    font-family:'lilsunshine' ;
+    src: url(/fonts/a_little_sunshine/);
+}
+@font-face {
+    font-family: hyning;
+    src: url(/fonts/hynings_handwriting/HyningsHandwritingV2-Regular.ttf);
+}
+
+body{
+  
+    
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+
+
+
+header{
+    padding-top: 10rem;
+    padding-bottom: 13.5rem;
+   
+}
+
+.sub-head{
+   
+    color:white;
+    font-family: golden_hopes;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0rem;
+}
+.main-heading{
+    font-family: rambler;
+    font-size: 11rem;
+    margin-top: 0rem;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+  
+}
+.description{
+    color:white;
+    font-family: chibiux;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+  }
+
+.nav-bar{
+    align-items: flex-end;
+    display: block;
+    margin: 0rem;
+    margin-top: 0rem;
+    
+    
+}
+
+.list-navbar{
+    list-style: none;
+    text-align: center;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    background-color: #161a1d;
+    
+}
+.list-navbar .list-inline{
+    display: inline;
+    font-family: power_breakfast;
+    font-size: 1.5rem;
+    padding: 0rem 1rem;
+}
+.link{
+    text-decoration: none;
+    color: #495057;
+}
+.link:hover{
+    color: white;
+}
+.link-active{
+    color: white;
+    font-size: 1.7rem;
+}
+.button{
+  
+    border-radius: 1rem;
+    font-family:power_breakfast ;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    
+}
+
+.button:hover{
+  
+    border-radius: 1rem;
+    font-family:power_breakfast ;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    color: white;
+    background-color:#495057 ;
+    
+}
+
+.heading{
+    font-family: slouchy_brush;
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 5rem;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+}
+.aboutme{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.para{
+    font-family: poppins, sans-serif;
+    max-width: 60rem;
+    font-size: 1.7rem;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(51, 51, 51);
+}
+.center{
+    text-align: center;
+}
+
+.head2{
+    text-align: center;
+    font-family:mykilove ;
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+.row2::after{
+    content: "";
+  display: table;
+  clear: both;
+  
+}
+.row2{
+    padding-bottom: 3rem;
+}
+.col{
+    float: left;
+    width: 47%;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    text-align: center;
+   
+}
+.p-head{
+    text-align: center;
+    font-family: slouchy_brush;
+}
+
+@media screen and (max-width:1100px) {
+    .main-heading{
+        font-size: 8rem;
+    }
+    .first-para{
+        font-size: 1rem;
+    }
+    .para{
+        font-size: 1rem;
+    }
+    .row2::after{
+        text-align: center;
+        display: block;
+    }
+    .col{
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+}
+
+.projects-para{
+    padding-top: 3rem;
+    font-size: 1.2rem;
+    font-family: poppins, sans-serif;
+    max-width: 60rem;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+    padding-bottom: 3rem;
+    color: rgb(71, 71, 71); 
+}   
+
+
+footer{
+    padding-top: 2rem;
+    background-color: #161a1d ;
+    padding-bottom: 3rem;
+}
+.foothead{
+    text-align: center;
+    font-family:mykilove ;
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 2rem;
+}
+.social-icons{
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.5;
+}
+.fa:hover {
+    opacity: 1;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.footdes{
+    color: grey;
+    font-family:sans-serif, poppins ;
+    font-size: 0.7rem;
+    text-align: right;
+    padding-inline-end: 3rem;
+    padding-top:2rem ;
+}
