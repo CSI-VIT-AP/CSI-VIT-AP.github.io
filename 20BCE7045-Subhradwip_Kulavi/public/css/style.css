@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1,h2{
+    font-weight: 900;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.web-icon{
+  padding: 10px;
+}
+
+.navbar .nav-item .nav-link{
+    padding:0 1.7rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+/* Main banner */
+#main-banner{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(228,228,228,1) 0%, rgba(0,212,255,1) 100%);
+    margin:0;
+    position: relative;
+    z-index: -2;
+}
+#main-banner h1{
+    font-size: 5rem;
+    font-weight: bolder;
+}
+#main-banner h4{
+    font-weight: 400;
+    font-size: 3rem;
+
+}
+.main-banner h4 span.cursor {
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.main-banner h4 span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: rgb(0, 0, 0); }
+  49% { background-color: rgb(7, 7, 7); }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: rgb(0, 0, 0); }
+}
+.banner-img{
+   width: 450px;
+   border-radius: 100%;
+   margin: 5rem 0;
+}
+
+.small-intro{
+    font-size: 1.1rem;
+}
+.wave{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+
+}
+
+/* About me */
+#about-me{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.about-me-img{
+    width: 400px;
+}
+.about-me-text{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 6%, rgba(85,235,228,0.5133403703278187) 100%);
+    border-radius:19% 81% 56% 44% / 29% 13% 87% 71% ;
+}
+
+
+.cv-link{
+    text-decoration: none;
+    color:black;
+}
+.cv-link:hover{
+    color: white;
+}
+
+/* Skills */
+#skills{
+    text-align: center;
+}
+.skills-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill-item{
+    margin:5% 2%;
+}
+
+/* Prjects */
+#projects{
+    margin: 20px 20px;
+}
+#projects .projects-heading{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.project-img{
+    display: block;
+    width: 500px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.newsletter-project-img{
+    width:300px
+}
+.project-link{
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer:contact me */
+#footer{
+    padding:4% 10%;
+    text-align: center;
+}
+.social-icon{
+    margin:10px;
+}
+.work-credit{
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media(max-width:1212px){
+    #main-banner h1{
+    font-size: 3.5rem;
+    }
+}
+
+
+@media(max-width:989px){
+    #main-banner{
+        text-align: center;
+    }
+    #main-banner p{
+        font-size: 2rem;
+    }
+    .banner-img{
+     width: 350px;
+     margin: 2.5rem 0;
+   }
+}
+@media(max-width:983px){
+    .about-me-img{
+        padding-bottom: 30px;
+    }
+
+
+}
+@media(max-width:598px){
+    #projects{
+        text-align: center;
+    }
+    .project-img{
+        width: 300px;
+    }
+    .project-details{
+        margin: 0;
+    }
+    
+}
+@media(max-width:415px){
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+    #main-banner h1{
+        font-size: 2.3rem;
+    }
+    #main-banner h4{
+        font-size:1.5rem
+    }
+    
+    .banner-img{
+        width: 250px;
+    }
+    .about-me-img{
+        width:270px
+    }
+}
+
+@media(max-width:321px){
+    .project-img{
+        width: 200px;
+    }
+}
+
