@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+
+<header>
+
+    <div class="user">
+        <img src="images/vennelaroshini.JPG" alt="">
+        <h3 class="name">Vennela roshini chowdary </h3>
+        <p class="post"></p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+
+
+<div class="container">
+
+    <section class="home" id="home">
+
+        <h3>Hola!!</h3>
+        <h3 class="name">Myslef<span>Vennela roshini</span></h3>
+        <h3 class="post">I am a <span class="typing-text"></span></h3>
+
+        
+
+        <div class="share">
+           
+            <a href="https://www.instagram.com/venns_chowdary/" class="fab fa-instagram"></a>
+        </div>
+
+    </section>
+
+  
+
+    <section class="about" id="about">
+
+        <h1 class="heading">about me</h1>
+
+        <div class="content">
+            <h3 class="name">Myself<span>Vennela roshini chowdary</span></h3>
+            <p>Currently Studying in Vellore Institute of Technology 
+                I am pursuing my Btech 2nd year !
+
+
+            </p>
+        </div>
+
+        <div class="skills1">
+            <div class="progress">
+                <h3>html <span>75%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>css <span>30%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Figma <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+        </div>
+
+    </section>
+
+    
+    <section class="skills" id="skills">
+
+        <h1 class="heading">my skills</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+
+            <div class="box">
+                <i class="fab fa-css3"></i>
+                <p>CSS</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-cut"></i>
+                <p>Video Editor</p>
+            </div>
+
+            
+
+        </div>
+
+    </section>
+
+  
+
+    <section class="education" id="education">
+
+        <h1 class="heading">my education</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="year">2017</div>
+                <h3>10th Board</h3>
+                <p>Oak valley international school (C.B.S.E).</p>
+            </div>
+
+            <div class="box">
+                <div class="year">2018-2020</div>
+                <h3>Intermediate Education</h3>
+                <p>Toppers junior Collage , Hyderabad </p>
+            </div>
+
+            <div class="box">
+                <div class="year">2019 - 2024</div>
+                <h3>B.tech Computer Science Engineering </h3>
+                <p>Vellore Institue of Technology, Amaravati.</p>
+            </div>
+
+            
+
+        </div>
+
+    </section>
+
+    
+    <section class="contact" id="contact">
+
+        <h1 class="heading">contact me</h1>
+
+        <div class="row">
+
+            <form action="">
+                <input type="text" class="box" placeholder="first name">
+                <input type="text" class="box" placeholder="last name">
+                <input type="email" class="box" placeholder="your email">
+                <input type="text" class="box" placeholder="your project">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <input type="submit" value="message" class="btn">
+            </form>
+
+            <div class="content">
+                <div class="icons">
+                    <h3><i class="fas fa-map-marker-alt"></i> address </h3>
+                    <p>Plot no 8-205 ; Weavers colony ; Andhrapradesh ; Amaravathi</p>
+                </div>
+                <div class="icons">
+                    <h3><i class="fas fa-envelope"></i> email </h3>
+                    <p>roshini.20bce7376@vitap.ac.in</p>
+                </div>
+                <div class="icons">
+                    <h3><i class="fas fa-phone"></i> phone </h3>
+                    <p>+91 9154958444</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+</div>
+
+
+
+<div class="theme-toggler">
+    
+    <span style="background:linear-gradient(rgb(111, 207, 245), rgba(255, 1, 128, 0.226))"></span>
+    <span style="background:linear-gradient(rgb(0, 0, 0), #111)"></span>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+
+<script>
+
+    var type = new Typed('.typing-text',{
+        strings : ['video editor', 'front end developer'],
+        typeSpeed: 120,
+        loop:true
+    });
+
+    let themeColor = document.querySelectorAll('.theme-toggler span');
+    themeColor.forEach(color => color.addEventListener('click', () =>{
+        let background = color.style.background;
+        document.querySelector('body').style.background = background;
+    }));
+
+</script>
+<footer class="footer"> Developed by <span> Vennela roshini Chowdary  </span> | Managed by CSI Chapter VIT AP </footer>
+
+</body>
+</html>
