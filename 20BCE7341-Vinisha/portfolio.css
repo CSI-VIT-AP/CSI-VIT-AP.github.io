@@ -1,0 +1,132 @@
+.portfolio{
+  font-family: sans-serif;
+  font-size: 50px;
+  color: azure;
+}
+
+
+.mainbackground{
+
+    background-image:url('https://comindesign.fr/wp-content/uploads/2018/08/website-design-slider-background-stockton.jpg');
+    padding:60px;
+    background-size:cover;
+}
+.abc{
+    padding-right: 92%;
+    color: azure;
+    font-size: 35px;
+}
+.navhome{
+    padding: 30px;
+    color: azure;
+}
+.nav{
+color: azure;
+padding: 30px;
+}
+.Home{
+    color: azure;
+    font-family: monospace;
+    font-size: 20px;
+    margin-right: 700px;
+}
+.Font{
+    font-size: 27px;
+}
+.Name{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.image{
+
+ height: 400px;
+ width: 250px;
+}
+.bcd{
+    color: azure;
+}
+.image1{
+    width:300px;
+    padding:40px;
+    border-radius:20px;
+}
+.impara{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+
+}
+.bttn1{
+    width: 150px;
+    height:50px;
+    
+    margin-right:30px;
+    
+}
+.html{
+    padding-top: 165px;
+}
+.java{
+    height: 150px;
+    
+}
+.port{
+    padding: 30px;
+}
+.insta{
+    color:azure;
+
+}
+.contact{
+    text-align:center;
+    color: azure;
+    margin-bottom: 50px;
+    
+}
+.color3{
+    color:white;
+    text-align:center;
+    padding-top:50px;
+}
+.color4{
+    color:white;
+    text-align:center;
+    padding-bottom:75px;
+}
+.color5{
+    color:white;
+}
+.insta{
+    font-size:50px;
+    margin:20px;
+}
+.html2{
+    padding-top: 200px;
+}
+.html3{
+    padding-top:360px;
+}
+.mail{
+    color:white;
+    text-align: center;
+}
+.skills1{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.card1{
+   
+    margin:40px;
+    
+}
+.card2{
+    margin:40px;
+    
+}
+.card3{
+    margin:40px;
+}
+.card-body{
+    color:white;
+}
