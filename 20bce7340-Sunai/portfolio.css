@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-color{
+    background-image:url("C:\Users\Welcome\OneDrive\Desktop\yellowblack.png");
+    background-size:cover;
+    height:100vh;
+}
+.navhome{
+    padding:40px;
+    padding-right:90px;
+    color:red;
+}
+.mainbackground{
+    background-image:url('https://wallpaperaccess.com/full/1720179.jpg');
+    padding:60px;
+    background-size:cover;
+}
+.typo{
+    background-color: white;
+
+}
+.para1{
+    padding-left:250px;
+    padding:250px;
+
+}
+.nav{
+    padding:40px;
+    padding-right:90px;
+}
+.image{
+    padding-right:150px;
+    
+}
+.color1{
+ background-color: rgb(238, 202, 84);
+ border-radius:10px;
+}
+.heads{
+    padding-top:20px;
+    padding-left:135px;
+    text-align:center;
+    font-size:25px;
+}
+.image{
+    width:400px;
+    padding:40px;
+    border-radius:20px;
+}
+.impara{
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.bttn1{
+    width:150px;
+    height:50px;
+    margin:10px;
+}
+.cards{
+    margin:50px;
+    padding:20px;
+    
+    
+}
+.class{
+    text-align:center;
+    font-size:20px;
+
+}
+.card1{
+   
+    margin:40px;
+    
+}
+.card2{
+    margin:40px;
+    
+}
+.card3{
+    margin:40px;
+}
+.csslogo{
+    width:25px;
+    height:175px;
+}
+.card4{
+    margin:40px;
+}
+.Skills{
+    text-align:center;
+    margin-top:20px;
+}
+.contact{
+    text-align:center;
+}
+.insta{
+    font-size:50px;
+    margin:20px;
+}
+.javalogo{
+    height:180px;
+}
+.bootstrap{
+    height:180px;
+}
+.color2{
+    background-color:black;
+}
+.color3{
+    color:white;
+    text-align:center;
+    padding-top:50px;
+}
+.color4{
+    color:white;
+    text-align:center;
+    padding-bottom:50px;
+}
+.color5{
+    color:black;
+}
